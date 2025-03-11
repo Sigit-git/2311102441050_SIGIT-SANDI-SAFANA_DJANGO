@@ -1,17 +1,30 @@
-# 2311102441050_SIGIT-SANDI-SAFANA_DJANGO
+# Personal Portfolio
 
-## persiapan
-1. python versi 3 keatas
-2. django
-3. pip
-4. venv
+[Python](#) [Django](#)
 
-## Note
-### biasanya jika kita menginstall python, pip dan venv terinstall otomatis
+Website ini merupakan portfolio pribadi saya yang berisi tentang informasi diri saya, project yang pernah saya kerjakan. Website ini dibuat menggunakan Django.
 
-# Penginstalan Django
-1. atur lingkungan virtual(venv) dulu, ketik "python -m venv web"
-2. untuk mengaktifkan venv, ketik "web\Scripts\activate"
-3. jika venv sudah aktif, kita intall django "pip install django"
-4. untuk membuat project baru di django, ketik "django-admin startproject myweb"
-5. untuk mngecek project berhasil, masuk kedalam cd myweb lalu ketik "py manage.py runserver"
+**Ada apa saja di website ini?**
+
+- **Home Page**: yang akan menampilkan main portfolio
+
+
+## Prerequisites
+
+- Python 3.8 or higher
+- pip (Python package installer)
+- Git
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Sigit-git/2311102441050_SIGIT-SANDI-SAFANA_DJANGO.git
+```
+
+2. Run
+
+```bash
+python manage.py runserver
+```
